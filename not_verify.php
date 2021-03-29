@@ -20,8 +20,8 @@ if(isset($_GET['id'])){
     $mail->Host = 'ssl://smtp.gmail.com';
     $mail->Port = 465;
     $mail->isHTML();
-    $mail->Username = 'mohammadfahmi417@gmail.com';
-    $mail->Password = 'P@ssw0rd081348563547';
+    $mail->Username = '-';
+    $mail->Password = '-';
     $mail->SetFrom('mohammadfahmi417@gmail.com', 'Administrator');
     $mail->Subject = '[UPDATE] Verifikasi Lowongan Input Kerja';
     $mail->Body = 'Mohon maaf lowongan kerja yang sudah ada lakukan telah berhasil diverifikasi, dan tidak bisa di verifikasi';
